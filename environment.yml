@@ -1,0 +1,17 @@
+name: pemsapp
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.10
+  - pip
+  - numpy
+  - opencv
+  - pyserial
+  - pillow
+  - pip:
+      - fastapi
+      - uvicorn
+      - pydantic
+      - sounddevice
+      - labjack-ljm

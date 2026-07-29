@@ -1,0 +1,9 @@
+fastapi
+uvicorn
+pydantic
+opencv-python
+sounddevice
+pyserial
+numpy
+labjack-ljm
+Pillow
